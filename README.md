@@ -17,7 +17,7 @@
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@PratheekXD/StringSession#main.py) ``Pyrogram``
 
-### 🎖 History
+### 🎖 History 💖
 
 [![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/PratheekXD)
 
