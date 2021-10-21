@@ -567,15 +567,12 @@ async def play(_, message: Message):
             )
         keyboard = InlineKeyboardMarkup(
             [
-                [
-                    [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+                [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
                     InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                     InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
                 [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
-                    )
-                ],
             ]
         )
         file_name = get_file_name(audio)
@@ -616,15 +613,12 @@ async def play(_, message: Message):
             return
         keyboard = InlineKeyboardMarkup(
             [
-                [
-                    [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+                [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
                     InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                     InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
                 [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
-                    )
-                ],
             ]
         )
         message.from_user.first_name
@@ -711,18 +705,15 @@ async def play(_, message: Message):
                 print(str(e))
                 return
             keyboard = InlineKeyboardMarkup(
-                [
-                    [
-                        [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+            [
+                [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
                     InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                     InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
                 [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
-                        )
-                    ],
-                ]
-            )
+            ]
+        )
             message.from_user.first_name
             await generate_cover(title, thumbnail, ctitle)
             file_path = await converter.convert(youtube.download(url))
@@ -818,7 +809,6 @@ async def lol_cb(b, cb):
         print(e)
         return
     keyboard = InlineKeyboardMarkup(
-        [
             [
                 [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
@@ -826,8 +816,8 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
                 [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
-        ]
-    )
+            ]
+        )
     await generate_cover(title, thumbnail, ctitle)
     file_path = await converter.convert(youtube.download(url))
     if chat_id in callsmusic.pytgcalls.active_calls:
@@ -970,7 +960,6 @@ async def ytplay(_, message: Message):
     except:
         pass
     keyboard = InlineKeyboardMarkup(
-        [
             [
                 [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
@@ -978,8 +967,8 @@ async def ytplay(_, message: Message):
                     InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
                 ],
                 [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
-        ]
-    )
+            ]
+        )
     message.from_user.first_name
     await generate_cover(title, thumbnail, ctitle)
     file_path = await converter.convert(youtube.download(url))
