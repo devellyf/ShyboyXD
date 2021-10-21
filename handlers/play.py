@@ -568,12 +568,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                    InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-                ],
+                    [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
-                    InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                ],
+                [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
                     )
                 ],
             ]
@@ -617,12 +617,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                    InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-                ],
+                    [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
                 [
-                    InlineKeyboardButton(
-                        "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                ],
+                [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
                     )
                 ],
             ]
@@ -713,12 +713,12 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                        InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+                [
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                ],
+                [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
                         )
                     ],
                 ]
@@ -820,10 +820,12 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-            ],
-            [InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")],
+                [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+                [
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                ],
+                [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
         ]
     )
     await generate_cover(title, thumbnail, ctitle)
@@ -970,10 +972,12 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Mᴇɴᴜ", callback_data="menu"),
-                InlineKeyboardButton("• Cʟᴏsᴇ", callback_data="cls"),
-            ],
-            [InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")],
+                [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+                [
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                ],
+                [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
         ]
     )
     message.from_user.first_name
