@@ -25,7 +25,7 @@ async def handle_user_status(bot, cmd):
         await db.add_user(chat_id)
         await bot.send_message(
             LOG_CHANNEL,
-            f"Bᴏᴛ Mᴇssᴀɢᴇ❗️ \n\n#NᴇᴡUsᴇʀAʀʀɪᴠᴇᴅ\n🔺Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏᴛ! \n\n📛 Nᴀᴍᴇ: `{cmd.from_user.first_name}` \n🆔 Tᴇʟᴇɢʀᴀᴍ Iᴅ: `{cmd.from_user.id}` \n🔗 Pʀᴏғɪʟᴇ Nᴀᴍᴇ: [{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id})",
+            f"Bᴏᴛ Mᴇssᴀɢᴇ❗️ \n\n#NᴇᴡUsᴇʀAʀʀɪᴠᴇᴅ\n🔺Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏᴛ! \n\n📛 Nᴀᴍᴇ: `{cmd.from_user.first_name}` \n🆔 Tᴇʟᴇɢʀᴀᴍ Iᴅ: `{cmd.from_user.id}` \n🔗 Pʀᴏғɪʟᴇ Nᴀᴍᴇ: [{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id}) \n➖➖➖➖➖➖➖➖➖➖➖➖➖ \n𝗧𝗘𝗔𝗠 [𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞](https://t.me/pratheek06) 𝘅 [𝗔𝗔𝗞𝗔𝗦𝗛](https://t.me/akshhhxx)",
         )
 
     ban_status = await db.get_ban_status(chat_id)
