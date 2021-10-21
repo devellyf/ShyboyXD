@@ -262,16 +262,15 @@ async def music_onoff(_, message):
 async def p_cb(b, cb):
 
     keyboard = InlineKeyboardMarkup(
-        [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
-                ),
-            ],
-            [InlineKeyboardButton("🔙 Go Back", callback_data="menu")],
-        ]
-    )
+                [InlineKeyboardButton("• Mᴇɴᴜ ", callback_data="menu")],
+                [
+                    InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                    InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                ],
+                [InlineKeyboardButton(text="♻️ Cʟᴏsᴇ", callback_data="closed")],
+            ]
+        )
 
     global que
     que.get(cb.message.chat.id)
