@@ -103,8 +103,8 @@ python3 main.py # Run the bot
 ```
 
 ### Special Credits 💖
-- [𝙋𝙍𝘼𝙏𝙃𝙀𝙀𝙆](https://github.com/PratheekXD): Owner
-- [𝘼𝘼𝙆𝘼𝙎𝙃](https://github.com/): Owner
+- [𝙴𝙽𝚅𝙴](https://github.com/devellyf): Owner
+- ](https://github.com/): Owner
 
 ### CODE OWNERS 🎑
 <a href="https://t.me/pratheek06"><img src="https://img.shields.io/badge/Inbox-PRATHEEK%20XD-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/akshhhxx"><img src="https://img.shields.io/badge/Inbox-AAKASH%20-red.svg?style=for-the-badge&logo=Telegram"></a>
