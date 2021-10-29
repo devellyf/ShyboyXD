@@ -103,7 +103,7 @@ python3 main.py # Run the bot
 ```
 
 ### Special Credits 💖
-- [𝙴𝙽𝚅𝙴](https://github.com/devellyf): Owner
+- [@Enve_tg](https://github.com/devellyf): Owner
 - ](https://github.com/): Owner
 
 ### CODE OWNERS 🎑
