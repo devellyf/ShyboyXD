@@ -107,4 +107,4 @@ python3 main.py # Run the bot
 - ](https://github.com/): Owner
 
 ### CODE OWNERS 🎑
-<a href="https://t.me/pratheek06"><img src="https://img.shields.io/badge/Inbox-PRATHEEK%20XD-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/akshhhxx"><img src="https://img.shields.io/badge/Inbox-AAKASH%20-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Enve_tg"><img src="https://img.shields.io/badge/Inbox-ENVE%20XD-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/akshhhxx"><img src="https://img.shields.io/badge/Inbox-AAKASH%20-red.svg?style=for-the-badge&logo=Telegram"></a>
