@@ -1,6 +1,6 @@
-<p align="center"><a href="https://t.me/pratheek06"><img src="https://github.com/PratheekXD/PratheekxAakash/blob/main/etc/PratheekXAakash.png"></a></p>
+<p align="center"><a href="https://t.me/XD_dead_killer"><img src="https://github.com/PratheekXD/PratheekxAakash/blob/main/etc/PratheekXAakash.png"></a></p>
 <p align="center">
-    <br><b>Pratheek X Aakash  Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram Voice Chat Group.</b><br>
+    <br><b>KannuXD Music Is A Telegram Bot Project That's Allow You To Play Music On Telegram Voice Chat Group.</b><br>
 </p>
 
 </p>
