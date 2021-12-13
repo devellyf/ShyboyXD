@@ -102,8 +102,8 @@ python3 main.py # Run the bot
 ```
 
 ### Special Credits 💖
-- [@Enve_tg](https://github.com/devellyf): Owner
-- ](https://github.com/): Owner
+- [@kannu_xd](https://github.com/devellyf): Owner
+
 
 ### CODE OWNERS 🎑
 <a href="https://t.me/Enve_tg"><img src="https://img.shields.io/badge/Inbox-ENVE%20XD-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/akshhh//t.me/Enve_tgs">i src="https://img.shields.io/badge/Inbox-AAKASH%20-red.svg?style=for-the-badge&logo=Telegram"></a>
