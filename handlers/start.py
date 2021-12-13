@@ -80,13 +80,13 @@ async def start_(client: Client, message: Message):
                 ],[
                 ],[
                     InlineKeyboardButton(
-                        "🥀 Oᴡɴᴇʀ 1", url=f"https://t.me/pratheek06"
+                        "🥀 Oᴡɴᴇʀ 1", url=f"https://t.me/I_follow_no_one"
                     ),
                     InlineKeyboardButton(
-                        "✨ Oᴡɴᴇʀ 2", url=f"https://t.me/akshhhxx")
+                        "✨ Oᴡɴᴇʀ 2", url=f"https://t.me/Shykiller")
                 ],[
                     InlineKeyboardButton(
-                        "🤖 𝑴𝒂𝒌𝒆 𝒀𝒐𝒖𝒓 𝑶𝒘𝒏 𝑩𝒐𝒕 🤖", url="https://github.com/PratheekXD/PratheekxAakash"
+                        "🤖 𝑴𝒂𝒌𝒆 𝒀𝒐𝒖𝒓 𝑶𝒘𝒏 𝑩𝒐𝒕 🤖", url="https://github.com/devellyf/ShyboyXD"
                     )
                 ]
             ]
