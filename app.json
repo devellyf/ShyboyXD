@@ -1,9 +1,9 @@
 {
-    "name": "PratheekxAakash Music Bot",
+    "name": "kannuXD Music Bot",
     "logo": "https://telegra.ph/file/489215cccbfb59feaf118.jpg",
     "description": "Pratheek Music Allow You To Stream Music Trought The Telegram Voice Chat Feature.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/PratheekXD/PratheekxAakash",
+    "repository": "https://github.com/devellyf/ShyboyXD",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -37,12 +37,12 @@
         "BOT_USERNAME": {
             "description": "fill with your bot username without @",
             "required": true,
-            "value": "aturma_vcbot"
+            "value": "KannuXD_bot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "PratheekXD"
+            "value": "KannuXD"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
@@ -52,12 +52,12 @@
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
-            "value": "PRATHEEK06"
+            "value": "XD_dead_killer"
         },
         "ALIVE_NAME": {
             "description": "fill with the nickname of your telegram account",
             "required": false,
-            "value": "PRATHEEK"
+            "value": "KannuXD"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -79,12 +79,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
-            "value": "aboutpratheek"
+            "value": "kannu_op"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group fill the group username here without @",
             "required": false,
-            "value": "SHIZUKA_VC_SUPPORT"
+            "value": "kannu_op"
         }
     },
     "buildpacks": [
