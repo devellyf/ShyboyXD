@@ -21,7 +21,7 @@ async def cbstart(_, query: CallbackQuery):
 
 𝙏𝙃𝙄𝙎 𝙄𝙎 𝘼 𝘽𝙊𝙏 𝘿𝙀𝙎𝙄𝙂𝙉𝙀𝘿 𝙏𝙊 𝙋𝙇𝘼𝙔 𝙈𝙐𝙎𝙄𝘾 𝙄𝙉 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋𝙎!
 
-𝙏𝙃𝙄𝙎 𝙄𝙎 𝘼 𝙋𝙐𝘽𝙇𝙄𝘾 𝙋𝙍𝙊𝙅𝙀𝘾𝙏 𝙊𝙁 [𝙋𝙍𝘼𝙏𝙃𝙀𝙀𝙆](https://t.me/pratheek06) & [𝘼𝘼𝙆𝘼𝙎𝙃](https://t.me/akshhhxx)....𝙈𝘼𝘿𝙀 𝙒𝙄𝙏𝙃 ❤️.
+𝙏𝙃𝙄𝙎 𝙄𝙎 𝘼 𝙋𝙐𝘽𝙇𝙄𝘾 𝙋𝙍𝙊𝙅𝙀𝘾𝙏 𝙊𝙁 [shyxd](https://t.me/I_follow_no_one) & [Killer](https://t.me/Shykiller)....𝙈𝘼𝘿𝙀 𝙒𝙄𝙏𝙃 ❤️.
 
 𝙃𝙀𝙍𝙀 𝘼𝙍𝙀 𝙎𝙊𝙈𝙀 𝘾𝙈𝘿𝙎 𝙏𝙊 𝙐𝙎𝙀 𝙏𝙃𝙄𝙎 𝘽𝙊𝙏 """,
         reply_markup=InlineKeyboardMarkup(
@@ -44,13 +44,13 @@ async def cbstart(_, query: CallbackQuery):
                 ],[
                 ],[
                     InlineKeyboardButton(
-                        "🥀 Oᴡɴᴇʀ 1", url=f"https://t.me/pratheek06"
+                        "🥀 Oᴡɴᴇʀ 1", url=f"https://t.me/I_follow_no_one"
                     ),
                     InlineKeyboardButton(
-                        "✨ Oᴡɴᴇʀ 2", url=f"https://t.me/akshhhxx")
+                        "✨ Oᴡɴᴇʀ 2", url=f"https://t.me/Shykiller")
                 ],[
                     InlineKeyboardButton(
-                        "🤖 𝑴𝒂𝒌𝒆 𝒀𝒐𝒖𝒓 𝑶𝒘𝒏 𝑩𝒐𝒕 🤖", url="https://github.com/PratheekXD/PratheekxAakash"
+                        "🤖 𝑴𝒂𝒌𝒆 𝒀𝒐𝒖𝒓 𝑶𝒘𝒏 𝑩𝒐𝒕 🤖", url="https://github.com/devellyf/ShyboyXD"
                     )
                 ]
             ]
